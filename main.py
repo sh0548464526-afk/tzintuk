@@ -112,7 +112,7 @@ def index():
     http_code = None
 
     if request.method == "POST" and "send" in request.form:
-        url = "https://www.call2all.co.il/ym/api/RunTzintuk?token=WU1BUElL.apik_ZShiuO21zrq-HjlhwgD2cw.us6C00wSBgKBzX5wzE_z-VDb8TJWQx1kIrzyQO2J5kI"
+        url = "https://www.call2all.co.il/ym/api/RunTzintuk?token=WU1BUElL.apik_ZShiuO21zrq-HjlhwgD2cw.yeElOoMFJHG0lVG84H3rM6kk2IisyREB-U3QHsF7aHE"
         try:
             r = requests.post(url, data="")
             response_text = r.text
